@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Bank</title>
+
+</head>
+
+<body>
+    <header>
+        <center>
+            <h1 style="color: blue;">
+                Aditya's <span style="color: gold;">Bank</span>
+            </h1>
+
+
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="loans.html">Loans</a> |
+                <a href="branches.html">Branches</a> |
+                <a href="Cust-reg-form.html">Customer Registration</a> |
+                <a href="Login-form.html">Login</a> |
+                <a href="Emi-Calculater.html">EMI Calculator</a> |
+                <a href="Cust-Pof-Update.html">Update Profile</a> |
+                <a href="Branch-feedback.html">Branch Feedback</a>
+            </nav>
+        </center>
+    </header>
+    <hr>
+    <main style="height: 500px;">
+        <center>
+            <h3>Welcome to Aditya's Bank</h3>
+        </center>
+        <table border="1" cellpadding="5" cellspacing="5" align="center">
+            <caption>Branch Feedback</caption>
+            <form action="" method="post">
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name" name="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="branch">Branch:</label></td>
+                   <td> <select name="" id="branch">
+                        <option value="" id="branch">Hyderabad</option>
+                        <option value="" id="branch">Vishakapatnam</option>
+                        <option value="" id="branch">Srikakulam</option>
+                    </select></td>
+                </tr>
+                <tr>
+
+                    <td><label for="date">Visiting Date:</label></td>
+                    <td><input type="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="rating">Rating</label></td>
+
+                    <td><input type="radio" id="excellent" name="rating"><label for="excellent">Excellent</label>
+                    <input type="radio" id="good" name="rating"><label for="good">Good</label>
+                    <input type="radio" id="average" name="rating"><label for="average">Average</label></td>
+                </tr>
+                <tr>
+                    <td><label for="service">Services Used</label></td>
+                   <td><input type="checkbox" id="service"><label for="service"> ATM</label>
+                    <input type="checkbox" id="service"><label for="service"> Loan</label>
+                    <input type="checkbox" id="service"><label for="service"> Account</label></td>
+                </tr>
+
+                <tr>
+                    <td><label for="suggestion">Suggestions:</label></td>
+                    <td><textarea id="suggestion" name="suggestion" rows="5" cols="28"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2 " align="center"><input type="submit" value="Submit">
+                    <input type="reset" value="Reset"></td>
+                </tr>
+            </form>
+        </table>
+    </main>
+
+    <footer style="background-color: black ; height: 125px;">
+        <center>
+            <h5 style="color: white">Copyright © 2023 Aditya's Bank. All rights reserved.</h5>
+        </center>
+    </footer>
+</body>
+
+</html>
