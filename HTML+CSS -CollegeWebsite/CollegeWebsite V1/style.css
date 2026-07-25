@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color:whitesmoke;
+    position: sticky;
+    top: 0%;
+}
+#name{
+    text-align: center;
+    color: coral;
+}
+#adress{
+    text-align: center;
+    color: rgb(223, 79, 31);
+}
+
+#nav-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: #20bedd;
+}
+marquee{
+    background-color:rgb(98, 98, 164);
+    color: snow;
+    height: 30px;
+}
+#about{
+margin-top: 40px;
+background-color: rgb(192, 209, 206);
+height: 500px;
+}
+#college-image{
+    height: 500px;
+    width: 40%;
+    margin:0 20px;
+    border:2px solid black;
+    float: left;
+    border-radius: 20px;
+}
+#about p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    margin-right: 10px;
+}
+#cources{
+    margin-top: 20px;
+    background-color: aqua;
+    color: black;
+    height: 200px;
+}
+#cources h1{
+    margin-left: 100px;
+    color: rgb(217, 24, 69);
+}
+li{
+    margin-left: 100px;
+}
+#departments{
+    margin-top: 20px;
+    background-color: rgb(224, 186, 237);
+    color: rgb(9, 9, 9);
+    height: 200px;
+}
+#departments h1{
+    margin-left: 100px;
+    color: rgb(227, 17, 17);
+}
+#placements{
+    margin-top: 20px;
+    background-color: rgb(110, 21, 140);
+    color: rgb(9, 9, 9);
+    height: 200px;
+}
+#placements h1{
+   text-align:center ;
+    color: rgb(230, 222, 222);
+}
+#placements table{
+   margin-left: 35%;
+   height: 150px;
+   width: 30%;
+   color: snow;
+}
+#contact{
+    margin-top: 20px;
+    background-color: rgb(209, 216, 170);
+    color: rgb(9, 9, 9);
+    height: 200px;
+}
+#contact p {
+    line-height: 40px;
+    margin-left: 100px;
+
+}
+#contact h1{
+    margin-left: 100px;
+    color: crimson;
+}
+footer{
+    text-align: center;
+    height: 300px;
+    background-color: black;
+    color: white;
+}
